@@ -1,6 +1,5 @@
-import path from 'path';
-
-const log = (str) => { console.log(str) }
+// following tutorial of Diego Muracciole
+import log from 'log.js';
 
 log('hello wRlD');
 
