@@ -1,0 +1,18 @@
+{
+  "name": "react-advanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ankeris/react-advanced.git",
+  "author": "Juozas Rastenis <eaajuras5@students.eaaa.dk>",
+  "license": "MIT",
+  "scripts": {
+    "start": "index.js",
+    "build": "./node_modules/.bin/babel ./index.js -o bundle.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
